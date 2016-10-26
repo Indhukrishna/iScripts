@@ -45,7 +45,7 @@ configuration InstallVSRemoteDebugger
     
     xFirewall AllowVSRemoteDebugger
     {
-      Name = 'VS– RemoteDebugging'
+      Name = 'VS–RemoteDebugging'
       Program = "$env:ProgramFiles\Microsoft Visual Studio 14.0\Common7\IDE\Remote Debugger\x64\msvsmon.exe"
       Ensure = 'Present'
       Profile = 'Domain'
