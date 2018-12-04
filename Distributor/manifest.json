@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "2.0",
+  "schemaType": "Package",
+
+
+  "displayName": "PowerShell 6 Core Package.",
+  "version": "Version6",
+  "description": "PowerShell 6 Core package.",
+
+  "packages": {
+    "ubuntu": {
+      "_any": {
+        "x86_64": {
+          "file": "powershell_6.1.1-1.ubuntu.16.04_amd64.zip"
+        }
+      }
+    },
+    "windows": {
+      "_any": {
+        "x86_64": {
+          "file": "PowerShell-6.1.1-win-x64.zip"
+        }
+      }
+    },
+    "redhat": {
+      "7.6": {
+        "x86_64": {
+          "file": "powershell-6.1.1-1.rhel.7.x86_64.zip"
+        }
+        }
+      }
+  },  
+
+  "files": {
+    "powershell_6.1.1-1.ubuntu.16.04_amd64.zip": {
+        "checksums": {
+          "sha256": "c476dd22c49e29aad24d6789f2ba11f612c2f7afb8e0c02d85269d4d3abd0d55"                     
+        }
+      },
+      "PowerShell-6.1.1-win-x64.zip": {
+        "checksums": {
+          "sha256": "e858038fe6002af609789bb8514b6d4633c5b38ccba13633668b797423dbeb08"                     
+        }
+      },
+      "powershell-6.1.1-1.rhel.7.x86_64.zip": {
+        "checksums": {
+          "sha256": "591ca86a5088cd4c035ba9afb28a071800957a6fd6092fe78303803cb99c7136"                     
+        }
+      }
+  }
+} 
